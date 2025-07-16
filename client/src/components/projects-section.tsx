@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import { Github, ExternalLink, Bus, Flower, Star, CheckCircle } from "lucide-react";
+import { Github, ExternalLink, Bus, Flower, Star, CheckCircle, Utensils } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -35,10 +35,22 @@ export default function ProjectsSection() {
       statusColor: "text-green-500",
       githubUrl: "https://github.com/Tharunteen/Predict-the-type-of-flower",
     },
+    {
+      title: "Food Ordering App",
+      description: "A mobile application for food ordering built with Java in Android Studio. Features include user authentication, menu browsing, cart management, and order tracking functionality.",
+      icon: Utensils,
+      gradient: "from-orange-100 to-red-100 dark:from-orange-900/30 dark:to-red-900/30",
+      iconColor: "text-orange-600",
+      technologies: ["Java", "Android Studio", "Mobile Development"],
+      status: "Completed",
+      statusIcon: CheckCircle,
+      statusColor: "text-green-500",
+      githubUrl: "https://github.com/Tharunteen/food-ordering-app",
+    },
   ];
 
   const stats = [
-    { label: "Public Repositories", value: "2+", color: "text-primary" },
+    { label: "Public Repositories", value: "3+", color: "text-primary" },
     { label: "Programming Languages", value: "5+", color: "text-secondary" },
     { label: "Development Status", value: "Active", color: "text-accent" },
   ];
@@ -57,7 +69,7 @@ export default function ProjectsSection() {
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full" />
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <motion.div
               key={index}
@@ -72,7 +84,9 @@ export default function ProjectsSection() {
                     <project.icon className={`h-12 w-12 ${project.iconColor} mb-4 mx-auto`} />
                     <div className="bg-white dark:bg-dark rounded p-2 shadow-lg max-w-fit mx-auto">
                       <code className="text-sm text-gray-700 dark:text-gray-300">
-                        {project.title === "Bus Booking System" ? "class BusBooking { }" : "predict_flower(sepal, petal)"}
+                        {project.title === "Bus Booking System" ? "class BusBooking { }" : 
+                         project.title === "Food Ordering App" ? "class FoodOrderActivity { }" : 
+                         "predict_flower(sepal, petal)"}
                       </code>
                     </div>
                   </div>
