@@ -92,7 +92,7 @@ export default function HeroSection() {
             className="flex justify-center space-x-6 mt-8"
           >
             <a
-              href="https://linkedin.com/in/tharun-m"
+              href="https://www.linkedin.com/in/tharunmadhu"
               className="text-gray-600 dark:text-gray-400 hover:text-primary hover:scale-110 transition-all duration-200"
             >
               <Linkedin className="h-6 w-6" />

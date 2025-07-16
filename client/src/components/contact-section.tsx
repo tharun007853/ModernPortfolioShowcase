@@ -68,7 +68,7 @@ export default function ContactSection() {
     {
       icon: Linkedin,
       title: "LinkedIn",
-      value: "linkedin.com/in/tharun-m",
+      value: "linkedin.com/in/tharunmadhu",
       bgColor: "bg-secondary/10",
       iconColor: "text-secondary",
     },
@@ -90,7 +90,7 @@ export default function ContactSection() {
   ];
 
   const socialLinks = [
-    { icon: Linkedin, href: "#", color: "bg-blue-600 hover:bg-blue-700" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/tharunmadhu", color: "bg-blue-600 hover:bg-blue-700" },
     { icon: Github, href: "https://github.com/Tharunteen", color: "bg-gray-800 hover:bg-gray-900" },
     { icon: Mail, href: "mailto:vitaltharun1467.s@gmail.com", color: "bg-red-600 hover:bg-red-700" },
   ];

@@ -70,7 +70,7 @@ export default function Portfolio() {
                 Always learning, always growing.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-primary transition-colors duration-200">
+                <a href="https://www.linkedin.com/in/tharunmadhu" className="text-gray-400 hover:text-primary transition-colors duration-200">
                   <i className="fab fa-linkedin text-xl"></i>
                 </a>
                 <a href="https://github.com/Tharunteen" className="text-gray-400 hover:text-primary transition-colors duration-200">
