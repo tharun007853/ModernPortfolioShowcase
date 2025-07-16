@@ -83,43 +83,16 @@ export default function AboutSection() {
           </motion.div>
 
           <motion.div variants={itemVariants} className="space-y-6">
-            <h3 className="text-2xl font-semibold text-primary">Quick Facts</h3>
-            <div className="space-y-4">
-              <Card className="p-4 hover-lift">
-                <CardContent className="p-0 flex items-center space-x-3">
-                  <MapPin className="h-5 w-5 text-primary" />
-                  <span>Chennai, Tamil Nadu, India</span>
-                </CardContent>
-              </Card>
-              <Card className="p-4 hover-lift">
-                <CardContent className="p-0 flex items-center space-x-3">
-                  <GraduationCap className="h-5 w-5 text-primary" />
-                  <span>B.E. Electrical & Electronics Engineering</span>
-                </CardContent>
-              </Card>
-              <Card className="p-4 hover-lift">
-                <CardContent className="p-0 flex items-center space-x-3">
-                  <Briefcase className="h-5 w-5 text-primary" />
-                  <span>Intern at HCLTech</span>
-                </CardContent>
-              </Card>
-              <Card className="p-4 hover-lift">
-                <CardContent className="p-0 flex items-center space-x-3">
-                  <Languages className="h-5 w-5 text-primary" />
-                  <span>English, Tamil, German</span>
-                </CardContent>
-              </Card>
-            </div>
-
-            <div className="mt-8">
-              <h4 className="text-lg font-semibold mb-4">Core Competencies</h4>
-              <div className="flex flex-wrap gap-2">
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">Full-Stack Development</span>
-                <span className="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-sm">Embedded Systems</span>
-                <span className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm">Industrial Automation</span>
-                <span className="px-3 py-1 bg-primary/10 text-primary rounded-full text-sm">Problem Solving</span>
-              </div>
-            </div>
+            <h3 className="text-2xl font-semibold text-primary">Why Choose Me</h3>
+            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+              My unique combination of electrical engineering fundamentals and software development skills allows me to 
+              approach problems from multiple angles. I thrive in collaborative environments and am always eager to 
+              take on new challenges that push me to grow professionally.
+            </p>
+            <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+              Whether it's debugging complex systems, learning new technologies, or working with cross-functional teams, 
+              I bring enthusiasm and a systematic approach to every project I undertake.
+            </p>
           </motion.div>
         </motion.div>
       </div>

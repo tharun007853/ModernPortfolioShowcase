@@ -17,7 +17,7 @@ export default function ExperienceSection() {
       icon: Laptop,
       gradient: "from-blue-500 to-purple-600",
       tags: ["Software Development", "Embedded Systems"],
-      description: "Currently working on software development projects with focus on embedded systems integration.",
+      description: "Working on innovative software solutions and gaining hands-on experience in enterprise development environments.",
     },
     {
       title: "Implant Trainee",
