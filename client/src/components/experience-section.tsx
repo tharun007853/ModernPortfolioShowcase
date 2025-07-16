@@ -16,8 +16,8 @@ export default function ExperienceSection() {
       location: "Chennai, Tamil Nadu, India • On-site",
       icon: Laptop,
       gradient: "from-blue-500 to-purple-600",
-      tags: ["Software Development", "Embedded Systems"],
-      description: "Working on innovative software solutions and gaining hands-on experience in enterprise development environments.",
+      tags: ["Embedded Testing", "Bug Report","Test Automation","Debugging"],
+      description: "Work in the Embedded and Device Testing domain, validating functionality of hardware systems.",
     },
     {
       title: "Implant Trainee",
