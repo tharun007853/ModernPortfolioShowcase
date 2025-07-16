@@ -18,13 +18,12 @@ export default function SkillsSection() {
 
   const webSkills = [
     { name: "HTML/CSS", level: 85, color: "from-orange-500 to-red-500" },
-    { name: "Full-Stack Development", level: 75, color: "from-green-500 to-emerald-500" },
-    { name: "Streamlit", level: 70, color: "from-pink-500 to-rose-500" },
   ];
 
   const toolsSkills = [
     { name: "Embedded Systems", level: 80, color: "from-indigo-500 to-blue-500" },
     { name: "Microsoft Power BI", level: 65, color: "from-yellow-500 to-amber-500" },
+    { name: "MY SQL", level: 50, color: "from-yellow-500 to-amber-500" },
     { name: "OOP Concepts", level: 85, color: "from-purple-500 to-violet-500" },
   ];
 
