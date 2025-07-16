@@ -61,7 +61,7 @@ export default function ContactSection() {
     {
       icon: Mail,
       title: "Email",
-      value: "tharun.m@example.com",
+      value: "vitaltharun1467.s@gmail.com",
       bgColor: "bg-primary/10",
       iconColor: "text-primary",
     },
@@ -92,7 +92,7 @@ export default function ContactSection() {
   const socialLinks = [
     { icon: Linkedin, href: "#", color: "bg-blue-600 hover:bg-blue-700" },
     { icon: Github, href: "https://github.com/Tharunteen", color: "bg-gray-800 hover:bg-gray-900" },
-    { icon: Mail, href: "mailto:tharun.m@example.com", color: "bg-red-600 hover:bg-red-700" },
+    { icon: Mail, href: "mailto:vitaltharun1467.s@gmail.com", color: "bg-red-600 hover:bg-red-700" },
   ];
 
   return (

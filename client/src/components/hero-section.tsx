@@ -104,7 +104,7 @@ export default function HeroSection() {
               <Github className="h-6 w-6" />
             </a>
             <a
-              href="mailto:tharun.m@example.com"
+              href="mailto:vitaltharun1467.s@gmail.com"
               className="text-gray-600 dark:text-gray-400 hover:text-primary hover:scale-110 transition-all duration-200"
             >
               <Mail className="h-6 w-6" />

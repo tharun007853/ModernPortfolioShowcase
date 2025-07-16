@@ -95,7 +95,7 @@ export default function Portfolio() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Contact Info</h4>
               <ul className="space-y-2 text-gray-400">
-                <li><i className="fas fa-envelope mr-2"></i>tharun.m@example.com</li>
+                <li><i className="fas fa-envelope mr-2"></i>vitaltharun1467.s@gmail.com</li>
                 <li><i className="fas fa-map-marker-alt mr-2"></i>Chennai, Tamil Nadu</li>
                 <li><i className="fas fa-phone mr-2"></i>Available on request</li>
               </ul>
