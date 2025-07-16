@@ -64,6 +64,15 @@ export default function CertificationsSection() {
       tag: "3rd Rank - 6th Semester",
       tagColor: "bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-400",
     },
+    {
+      title: "SAIL Implant",
+      issuer: "SAIL-Steel Authority of India Limited",
+      issued: "Jan 2023",
+      icon: Factory,
+      gradient: "from-sky-700 to-slate-500",
+      tag: "Industrial Training",
+      tagColor: "bg-sky-100 dark:bg-sky-900/30 text-sky-800 dark:text-sky-400",
+    },
   ];
 
   return (
