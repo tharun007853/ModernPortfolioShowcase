@@ -64,6 +64,7 @@ export default function ContactSection() {
       value: "vitaltharun1467.s@gmail.com",
       bgColor: "bg-primary/10",
       iconColor: "text-primary",
+      href: "vitaltharun1467.s@gmail.com",
     },
     {
       icon: Linkedin,
@@ -71,6 +72,7 @@ export default function ContactSection() {
       value: "linkedin.com/in/tharunmadhu",
       bgColor: "bg-secondary/10",
       iconColor: "text-secondary",
+      href: "https://www.linkedin.com/in/tharunmadhu",
     },
     {
       icon: Github,
