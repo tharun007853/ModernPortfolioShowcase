@@ -60,7 +60,7 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-{/*               {navigation.map((item) => (
+              {navigation.map((item) => (
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
@@ -70,8 +70,8 @@ export default function Navbar() {
                 >
                   {item.name}
                 </button>
-              ))} */}
-              {navigation.map((item) => (
+              ))}
+{/*               {navigation.map((item) => (
                 <button
                   key={item.name}
                   onClick={() => scrollToSection(item.href)}
@@ -81,7 +81,7 @@ export default function Navbar() {
               >
                 {item.name}
               </button>
-            ))}
+            ))} */}
 
             </div>
           </div>
@@ -120,7 +120,7 @@ export default function Navbar() {
           className="md:hidden bg-white dark:bg-dark border-t border-gray-200 dark:border-gray-700"
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-{/*             {navigation.map((item) => (
+            {navigation.map((item) => (
               <button
                 key={item.name}
                 onClick={() => scrollToSection(item.href)}
@@ -128,8 +128,8 @@ export default function Navbar() {
               >
                 {item.name}
               </button>
-            ))} */}
-            {navigation.map((item) => (
+            ))}
+{/*             {navigation.map((item) => (
          <button
           key={item.name}
           onClick={() => scrollToSection(item.href)}
@@ -137,7 +137,7 @@ export default function Navbar() {
          >
            {item.name}
          </button>
-        ))}
+        ))} */}
           </div>
         </motion.div>
       )}
