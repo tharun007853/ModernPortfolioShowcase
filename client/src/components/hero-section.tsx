@@ -58,7 +58,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg text-gray-500 dark:text-gray-400 mb-8 max-w-2xl mx-auto"
           >
-            Intern at HCLTech | Electrical & Electronics Engineering Student | Full-Stack Developer
+            Intern at HCLTech | Electrical & Electronics Engineering Student 
           </motion.p>
 
           <motion.div
