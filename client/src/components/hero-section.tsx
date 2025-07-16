@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ChevronDown, Code, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import profileImage from "@assets/file_000000007ca06230bf10df30492e0a16 (1)_1752654172999.png";
 
 export default function HeroSection() {
   const scrollToSection = (id: string) => {
@@ -20,9 +21,13 @@ export default function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="mb-8"
           >
-            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-secondary p-1 animate-float">
-              <div className="w-full h-full rounded-full bg-gray-300 dark:bg-gray-600 flex items-center justify-center">
-                <span className="text-4xl font-bold text-gray-600 dark:text-gray-400">TM</span>
+            <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary to-secondary p-1 animate-float shadow-2xl glow-on-hover">
+              <div className="w-full h-full rounded-full overflow-hidden">
+                <img 
+                  src={profileImage} 
+                  alt="Tharun M - Professional Profile"
+                  className="w-full h-full object-cover object-center profile-hover"
+                />
               </div>
             </div>
           </motion.div>

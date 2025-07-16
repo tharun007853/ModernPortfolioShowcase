@@ -67,7 +67,7 @@ export default function SkillsSection() {
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.6, delay }}
     >
-      <Card className="p-6 shadow-lg hover:shadow-xl transition-all duration-300 h-full">
+      <Card className="p-6 shadow-lg hover-lift glow-on-hover h-full">
         <CardContent className="p-0">
           <h3 className="text-xl font-semibold mb-6 text-primary flex items-center">
             <Icon className="mr-3 h-5 w-5" />
@@ -137,7 +137,7 @@ export default function SkillsSection() {
           <h3 className="text-2xl font-semibold mb-8 text-center">Languages</h3>
           <div className="grid md:grid-cols-3 gap-6">
             {languages.map((lang, index) => (
-              <Card key={lang.name} className="text-center p-6 shadow-lg hover:shadow-xl transition-all duration-300">
+              <Card key={lang.name} className="text-center p-6 shadow-lg hover-lift">
                 <CardContent className="p-0">
                   <lang.icon className="h-8 w-8 text-primary mb-4 mx-auto" />
                   <h4 className="text-lg font-semibold">{lang.name}</h4>

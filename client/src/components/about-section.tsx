@@ -67,13 +67,13 @@ export default function AboutSection() {
             </p>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
-              <Card className="text-center p-4 hover:shadow-lg transition-all duration-300">
+              <Card className="text-center p-4 hover-lift glow-on-hover">
                 <CardContent className="p-0">
                   <div className="text-2xl font-bold text-primary">8.51</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">CGPA</div>
                 </CardContent>
               </Card>
-              <Card className="text-center p-4 hover:shadow-lg transition-all duration-300">
+              <Card className="text-center p-4 hover-lift glow-on-hover">
                 <CardContent className="p-0">
                   <div className="text-2xl font-bold text-secondary">8+</div>
                   <div className="text-sm text-gray-600 dark:text-gray-400">Certifications</div>
@@ -85,25 +85,25 @@ export default function AboutSection() {
           <motion.div variants={itemVariants} className="space-y-6">
             <h3 className="text-2xl font-semibold text-primary">Quick Facts</h3>
             <div className="space-y-4">
-              <Card className="p-4 hover:shadow-lg transition-all duration-300">
+              <Card className="p-4 hover-lift">
                 <CardContent className="p-0 flex items-center space-x-3">
                   <MapPin className="h-5 w-5 text-primary" />
                   <span>Chennai, Tamil Nadu, India</span>
                 </CardContent>
               </Card>
-              <Card className="p-4 hover:shadow-lg transition-all duration-300">
+              <Card className="p-4 hover-lift">
                 <CardContent className="p-0 flex items-center space-x-3">
                   <GraduationCap className="h-5 w-5 text-primary" />
                   <span>B.E. Electrical & Electronics Engineering</span>
                 </CardContent>
               </Card>
-              <Card className="p-4 hover:shadow-lg transition-all duration-300">
+              <Card className="p-4 hover-lift">
                 <CardContent className="p-0 flex items-center space-x-3">
                   <Briefcase className="h-5 w-5 text-primary" />
                   <span>Intern at HCLTech</span>
                 </CardContent>
               </Card>
-              <Card className="p-4 hover:shadow-lg transition-all duration-300">
+              <Card className="p-4 hover-lift">
                 <CardContent className="p-0 flex items-center space-x-3">
                   <Languages className="h-5 w-5 text-primary" />
                   <span>English, Tamil, German</span>

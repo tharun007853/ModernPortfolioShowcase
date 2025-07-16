@@ -88,7 +88,7 @@ export default function CertificationsSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
-              <Card className="p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full">
+              <Card className="p-6 shadow-lg hover-lift glow-on-hover h-full">
                 <CardContent className="p-0">
                   <div className="flex items-center mb-4">
                     <div className={`w-12 h-12 bg-gradient-to-r ${cert.gradient} rounded-lg flex items-center justify-center mr-4`}>

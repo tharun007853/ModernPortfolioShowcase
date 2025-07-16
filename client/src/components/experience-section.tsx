@@ -67,7 +67,7 @@ export default function ExperienceSection() {
                 <div className="absolute left-4 md:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-white dark:border-dark" />
 
                 <div className={`ml-12 md:ml-0 ${index % 2 === 0 ? 'md:w-1/2 md:pr-8 md:text-right' : 'md:w-1/2 md:pl-8'}`}>
-                  <Card className="p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                  <Card className="p-6 shadow-lg hover-lift glow-on-hover">
                     <CardContent className="p-0">
                       <div className={`flex items-center mb-4 ${index % 2 === 0 ? 'md:justify-end' : ''}`}>
                         <div className={`w-12 h-12 bg-gradient-to-r ${exp.gradient} rounded-lg flex items-center justify-center ${index % 2 === 0 ? 'mr-4 md:mr-0 md:ml-4 md:order-2' : 'mr-4'}`}>

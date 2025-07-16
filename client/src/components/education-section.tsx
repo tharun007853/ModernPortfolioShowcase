@@ -61,7 +61,7 @@ export default function EducationSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Card className="p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full">
+              <Card className="p-6 shadow-lg hover-lift glow-on-hover h-full">
                 <CardContent className="p-0">
                   <div className="text-center mb-4">
                     <div className={`w-16 h-16 bg-gradient-to-r ${edu.gradient} rounded-full flex items-center justify-center mx-auto mb-4`}>

@@ -125,7 +125,7 @@ export default function ContactSection() {
 
             <div className="space-y-6">
               {contactInfo.map((info, index) => (
-                <Card key={index} className="p-4 hover:shadow-lg transition-all duration-300">
+                <Card key={index} className="p-4 hover-lift">
                   <CardContent className="p-0 flex items-center space-x-4">
                     <div className={`w-12 h-12 ${info.bgColor} rounded-lg flex items-center justify-center`}>
                       <info.icon className={`h-5 w-5 ${info.iconColor}`} />
@@ -168,7 +168,7 @@ export default function ContactSection() {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <Card className="p-8 shadow-lg">
+            <Card className="p-8 shadow-lg hover-lift glow-on-hover">
               <CardContent className="p-0">
                 <h3 className="text-2xl font-semibold text-secondary mb-6">Send Message</h3>
 

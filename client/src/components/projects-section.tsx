@@ -65,7 +65,7 @@ export default function ProjectsSection() {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Card className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 h-full">
+              <Card className="rounded-lg overflow-hidden shadow-lg hover-lift glow-on-hover h-full">
                 {/* Project Visual */}
                 <div className={`h-48 bg-gradient-to-br ${project.gradient} flex items-center justify-center`}>
                   <div className="text-center">
@@ -128,7 +128,7 @@ export default function ProjectsSection() {
           className="mt-12 text-center"
         >
           <h3 className="text-2xl font-semibold mb-8">GitHub Activity</h3>
-          <Card className="p-6 shadow-lg">
+          <Card className="p-6 shadow-lg hover-lift">
             <CardContent className="p-0">
               <div className="grid md:grid-cols-3 gap-6">
                 {stats.map((stat, index) => (
