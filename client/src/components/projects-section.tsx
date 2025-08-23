@@ -3,7 +3,6 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Github, ExternalLink, Bus, Flower, Star, CheckCircle, Utensils } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 
 export default function ProjectsSection() {
@@ -122,10 +121,14 @@ export default function ProjectsSection() {
                       <project.statusIcon className={`h-4 w-4 ${project.statusColor} mr-1`} />
                       {project.status}
                     </div>
-                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                      <Button size="sm">
-                        View Code <ExternalLink className="ml-1 h-3 w-3" />
-                      </Button>
+                    {/* Real clickable link styled as button */}
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-medium bg-blue-500 text-white hover:bg-blue-600 transition"
+                    >
+                      View Code <ExternalLink className="ml-1 h-3 w-3" />
                     </a>
                   </div>
                 </CardContent>
@@ -153,11 +156,14 @@ export default function ProjectsSection() {
                 ))}
               </div>
               <div className="mt-6">
-                <a href="https://github.com/Tharunteen" target="_blank" rel="noopener noreferrer">
-                  <Button>
-                    <Github className="mr-2 h-4 w-4" />
-                    View GitHub Profile
-                  </Button>
+                <a
+                  href="https://github.com/Tharunteen"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-4 py-2 rounded-md font-medium bg-blue-500 text-white hover:bg-blue-600 transition"
+                >
+                  <Github className="mr-2 h-4 w-4" />
+                  View GitHub Profile
                 </a>
               </div>
             </CardContent>
