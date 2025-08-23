@@ -122,13 +122,13 @@ export default function ProjectsSection() {
                       {project.status}
                     </div>
                     {/* Real clickable link styled as button */}
-                    <a
+{/*                     <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-3 py-1.5 rounded-md text-sm font-medium bg-blue-500 text-white hover:bg-blue-600 transition"
                     >
-                      View Code <ExternalLink className="ml-1 h-3 w-3" />
+                      View Code <ExternalLink className="ml-1 h-3 w-3" /> */}
                     </a>
                   </div>
                 </CardContent>
