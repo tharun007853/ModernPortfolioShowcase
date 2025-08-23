@@ -122,11 +122,11 @@ export default function ProjectsSection() {
                       <project.statusIcon className={`h-4 w-4 ${project.statusColor} mr-1`} />
                       {project.status}
                     </div>
-                    <Button asChild size="sm">
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                      <Button size="sm">
                         View Code <ExternalLink className="ml-1 h-3 w-3" />
-                      </a>
-                    </Button>
+                      </Button>
+                    </a>
                   </div>
                 </CardContent>
               </Card>
@@ -153,12 +153,12 @@ export default function ProjectsSection() {
                 ))}
               </div>
               <div className="mt-6">
-                <Button asChild>
-                  <a href="https://github.com/Tharunteen" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Tharunteen" target="_blank" rel="noopener noreferrer">
+                  <Button>
                     <Github className="mr-2 h-4 w-4" />
                     View GitHub Profile
-                  </a>
-                </Button>
+                  </Button>
+                </a>
               </div>
             </CardContent>
           </Card>
